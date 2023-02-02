@@ -1,0 +1,169 @@
+.app_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.app_page h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.app_page h1.title {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.app_page p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.app_page p.log {
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.app_page p.log.show {
+    opacity: 1;
+}
+
+.app_page .credentials {
+    width: 100%;
+    max-width: 380px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.app_page .credentials .account {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 8px;;
+}
+
+.app_page .credentials .account:last-child {
+    margin-bottom: 0;
+}
+
+.app_page .credentials .account h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    user-select: none;
+}
+
+.app_page .credentials .account .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_page .credentials .account .buttons button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.2s;
+}
+
+.app_page .credentials .account .buttons button:hover{
+    color: #2c72f5;
+}
+
+button.add_credentials {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    transition: 0.2s;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+button.add_credentials:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.remove {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.remove h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    user-select: none;
+}
+
+.remove button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 13px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    transition: 0.2s;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.remove button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.credentials_show h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.credentials_show p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 7px;
+    font-family: 'IBM Plex Mono', monospace !important;
+}
+
+.credentials_show h2:first-child {
+    margin-top: 0;
+}

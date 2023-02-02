@@ -1,0 +1,35 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Satoshi', sans-serif;
+}
+
+.App {
+   width: 100vw;
+   height: 100vh;
+   background-color: rgb(25, 27, 29);
+   border: 1px solid rgba(255, 255, 255, 0.05);
+   border-radius: 6px;
+   overflow: hidden;
+}
+
+::-webkit-scrollbar {
+   width: 20px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 20px;
+   border: 6px solid transparent;
+   background-clip: content-box;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}

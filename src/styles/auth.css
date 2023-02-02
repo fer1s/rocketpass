@@ -1,0 +1,81 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.auth h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.auth p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.auth p.log {
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.auth p.log.show {
+    opacity: 1;
+}
+
+.auth .input {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+.auth .input input,
+.auth .input i {
+    padding: 10px;
+    outline: none;
+}
+
+.auth .input input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.auth .input i {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.auth button {
+    padding: 10px 16px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 5px;
+    transition: transform .4s;
+}
+
+.auth .buttons button:nth-child(1) {
+    background-color: #2c72f5;
+}
+
+.auth .buttons button:hover {
+    transform: scale(1.05);
+}

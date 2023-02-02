@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+.add_page h1.title {
+   font-size: 2.3rem;
+   font-weight: 600;
+   color: #fff;
+   margin-bottom: 20px;
+   user-select: none;
+}
+
+.add_page .input {
+   margin-bottom: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   overflow: hidden;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 7px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   width: 100%;
+}
+
+.add_page .input input,
+.add_page .input i,
+.add_page .input button {
+   padding: 10px;
+   outline: none;
+}
+
+.add_page .input input {
+   background-color: transparent;
+   outline: none;
+   border: none;
+   color: #fff;
+   width: 100%;
+}
+
+.add_page .input i {
+   border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.add_page .input button i {
+   color: #fff;
+   padding: 0;
+   border: none;
+}
+
+.add_page .input button {
+   border: none;
+   border-left: 1px solid rgba(255, 255, 255, 0.1);
+   outline: none;
+   background-color: transparent;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+
+.add_page .input button:hover {
+   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.add_page button.add {
+    margin-bottom: 15px;
+}
+.add_page button.generate {
+      margin-bottom: 15px;
+}
+
+.add_page button.add,
+.add_page button.generate,
+.add_page button.cancel {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   outline: none;
+   background-color: transparent;
+   color: #fff;
+   border-radius: 7px;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+
+.add_page button.add:hover,
+.add_page button.generate:hover,
+.add_page button.cancel:hover {
+   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.add_page p {
+   margin-top: 10px;
+   font-size: 13px;
+   font-weight: 200;
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.add_page p.log {
+   opacity: 0;
+   transition: 0.2s ease-in-out;
+}
+
+.add_page p.log.show {
+   opacity: 1;
+}
+
+.Modal .password {
+   padding: 6px;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   text-align: center;
+}
+
+.Modal .password p,
+.Modal .password span {
+   font-family: 'IBM Plex Mono', monospace !important;
+   font-weight: 400;
+}
+
+.Modal .options {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+.Modal .options .input {
+   margin-bottom: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   overflow: hidden;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 7px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   width: 100%;
+}
+
+.Modal .options .input input,
+.Modal .options .input i{
+   padding: 10px;
+   outline: none;
+}
+
+.Modal .options .input input {
+   background-color: transparent;
+   outline: none;
+   border: none;
+   color: #fff;
+   width: 100%;
+}
+
+.Modal .options .input i {
+   border-right: 1px solid rgba(255, 255, 255, 0.1);
+   color: rgba(255, 255, 255, 1);
+}
+
+.Modal .selection {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   overflow: hidden;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 7px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   width: 100%;
+}
+
+.Modal .selection i {
+   border-right: 1px solid rgba(255, 255, 255, 0.1);
+   color: rgba(255, 255, 255, 1);
+   padding: 10px;
+}
+
+.Modal .selection .buttons {
+   width: 100%;
+}
+
+.Modal .selection .buttons button {
+   width: calc(100% / 4);
+   padding: 8px;
+   outline: none;
+   border: none;
+   border-left: 1px solid rgba(255, 255, 255, 0.1);
+   background-color: transparent;
+   color: rgba(255, 255, 255, 0.4);
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+
+.Modal .selection .buttons button.active {
+   color: rgba(255, 255, 255, 1);
+}
+
+.Modal .selection .buttons button:first-child {
+   border-left: none;
+}
+
+.Modal .options button.ok {
+   width: 100%;
+   margin-top: 15px;
+   padding: 8px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   outline: none;
+   background-color: transparent;
+   color: #fff;
+   border-radius: 7px;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+
+.Modal .options button.ok:hover {
+   background-color: rgba(255, 255, 255, 0.1);
+}

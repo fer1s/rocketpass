@@ -5,13 +5,15 @@ Store your passwords safely with RocketPass.
 This app is built with [Tauri](https://tauri.app/) and [React.js](https://reactjs.org/).
 
 
+## Preview
+
+![preview](preview.png)
+
+
 ## Cryptography architecture
 
 ![crypto_arch](crypto_arch.png)
 
-<!-- ## Preview
-
-![preview](preview.png) -->
 
 ## Author
 
